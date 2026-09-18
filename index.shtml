@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> adriel webpage</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" sizes="96x96" />
+
+    <!-- Google Font (Smooch Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <head>Terpconnect Static Site</head>
+    <h1>Render Info</h1>
+    <p>
+        Name: Adriel John <br>
+        Render Location: <a href="https://johnstaticsite.onrender.com">https://johnstaticsite.onrender.com</a> <br>
+         <strong>Last Modified: </strong><!--#echo var="LAST_MODIFIED" --><br>
+    </p>
+</head>
+<body>
+    <h1>Actual Page</h1>
+    <main>
+        <h1>All About Dogs</h1>
+        <p>If I could have a few dogs, the breeds and their names would be:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dog Name</th>
+                    <th>Breed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Buddy</td>
+                    <td>Golden Retriever</td>
+                </tr>
+                <tr>
+                    <td>Max</td>
+                    <td>German Shepherd</td>
+                </tr>
+                <tr>
+                    <td>Bella</td>
+                    <td>Poodle</td>
+                </tr>
+                <tr>
+                    <td>Daisy</td>
+                    <td>Beagle</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- YouTube Link -->
+        <p>
+            Check out this video: <a href="https://www.youtube.com/watch?v=z6EchXyieos" target="_blank">Funny Dogs Compilation</a>
+        </p>
+    </main>
+</body>
+</html>
